@@ -42,3 +42,8 @@ scp -i id_rsa id_rsa.pub username@hostname:/path/
 ssh-copy-id username@hostname
 ssh-copy-id -i id_rsa.pub username@hostname
 ```
+
+### 7. Automate SSH Key Deployment for Multiple Users and Instances
+```
+ssh_key_distributor.sh
+```
