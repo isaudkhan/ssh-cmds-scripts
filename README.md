@@ -48,7 +48,7 @@ ssh-copy-id -i id_rsa.pub username@hostname
 sshpass -f password.txt ssh-copy-id -o StrictHostKeyChecking=no username@hostname
 ```
 
-### 7. Automate SSH Key Deployment for Multiple Users and Instances
+### 8. Automate SSH Key Deployment for Multiple Users and Instances
 ```
-ssh_key_distributor.sh
+[Download ssh_key_distributor.sh](https://github.com/isaudkhan/ssh-cmds-scripts/raw/main/ssh_key_distributor.sh)
 ```
