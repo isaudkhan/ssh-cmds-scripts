@@ -43,6 +43,11 @@ ssh-copy-id username@hostname
 ssh-copy-id -i id_rsa.pub username@hostname
 ```
 
+### 7. Copy SSH Key with Password Automation
+```
+sshpass -f password.txt ssh-copy-id -o StrictHostKeyChecking=no username@hostname
+```
+
 ### 7. Automate SSH Key Deployment for Multiple Users and Instances
 ```
 ssh_key_distributor.sh
